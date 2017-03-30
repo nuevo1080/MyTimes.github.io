@@ -2,12 +2,18 @@
 header{
   display: flex;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-bottom: 1px solid black;
   justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+
 }
 
 .logo{
@@ -30,4 +36,51 @@ nav span a{
 
 nav{
   padding-right: 30px;
+}
+/*====main content==*/
+.content{
+  display: flex;
+  border: solid black;
+  width: 1232px;
+  padding-top: 116px;
+  border: solid black;
+  margin: 0 auto 78px auto;
+
+}
+
+}
+/*=======Columns========*/
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: solid black;
+}
+.column.large{
+  width: 630px;
+
+}
+/* second news column*/
+.column.medium{
+  width: 300px;
+}
+.cat-ceo.image-content{
+  background-image: url(../Resources/img-story-1.png);
+}
+/* third news column */
+.column.small{
+  width: 240px;
+}
+
+.image-content{
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: none;
 }
